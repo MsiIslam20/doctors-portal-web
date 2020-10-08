@@ -20,20 +20,9 @@ const Header = () => {
                             <li className="nav-item">
                                 <a className="nav-link" href="#0">Review</a>
                             </li> 
-                            {/* <li className="nav-item">
-                                {
-                                    loggedInUser.name ? <Link to="/events"><p className="nav-link">Events</p></Link> :
-                                    <Link to="/login"><p className="nav-link">Events</p></Link>
-                                }
-                            </li>  */}
                             <li className="nav-item">
                                 <a className="nav-link" href="#0">Blog</a>
                             </li> 
-                            {/* <li className="nav-item">
-                                {
-                                    loggedInUser.name ? <p className="nav-link username">{loggedInUser.name}</p> : <Link to="/login"><p className="nav-link btn btn-primary btn-main">Register</p></Link>
-                                }
-                            </li>                              */}
                             <li className="nav-item">
                                 <Link to="/admin">
                                     <p className="nav-link btn btn-dark btn-main">Admin</p>
