@@ -15,8 +15,11 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">                    
                         <ul className="navbar-nav ml-auto">                           
                             <li className="nav-item">
-                                <a className="nav-link" href="#0">Donation</a>
+                                <a className="nav-link" href="#0">Home</a>
                             </li>    
+                            <li className="nav-item">
+                                <a className="nav-link" href="#0">Review</a>
+                            </li> 
                             {/* <li className="nav-item">
                                 {
                                     loggedInUser.name ? <Link to="/events"><p className="nav-link">Events</p></Link> :
