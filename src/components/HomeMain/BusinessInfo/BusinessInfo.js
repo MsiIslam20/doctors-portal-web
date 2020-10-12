@@ -1,5 +1,6 @@
 import React from 'react';
 import SingleInfo from './SingleInfo';
+import { faClock, faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const infosData = [
     {
@@ -27,7 +28,7 @@ const infosData = [
 
 const BusinessInfo = () => {
     return (
-        <div className="container">
+        <div style={{paddingTop: '90px'}} className="container">
             <div className="row">
                 <div className="col-md-12">
                     <div className="row">

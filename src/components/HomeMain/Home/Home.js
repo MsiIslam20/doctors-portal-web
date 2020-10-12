@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import bg from '../../../images/home.png'
+import BusinessInfo from '../BusinessInfo/BusinessInfo';
 import './Home.css';
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <BusinessInfo></BusinessInfo>
         </div>
     );
 };

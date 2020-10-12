@@ -1,9 +1,19 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import './SingleInfo.css'
 
 const SingleInfo = ({info}) => {
     return (
-        <div className="col-md-4">
-            
+        <div className="col-md-4 text-white info-card">
+            <div className={`d-flex justify-content-center info-container info-${info.background}`}>
+                <div className="mr-4">
+                    <FontAwesomeIcon className="info-icon" icon={info.icon}></FontAwesomeIcon>
+                </div>
+                <div>
+                    <h6>{info.title}</h6>
+                    <small>{info.description}</small>
+                </div>
+            </div>
         </div>
     );
 };
