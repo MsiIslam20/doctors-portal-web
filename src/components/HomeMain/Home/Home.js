@@ -7,8 +7,8 @@ const Home = () => {
         <div className="home-wrapper">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12">
-                        <h1>Hello...!!</h1>
+                    <div className="col-md-12 px-0">
+
                     </div>
                 </div>
             </div>

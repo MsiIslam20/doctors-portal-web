@@ -1,4 +1,6 @@
 .home-wrapper{
+    background: url(../../../images/home-bg.png) no-repeat center center;
+    background-size: cover;
     height: 100vh;
     width: 100%;
 }
