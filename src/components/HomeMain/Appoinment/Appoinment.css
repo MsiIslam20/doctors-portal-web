@@ -1,0 +1,26 @@
+.appointment-wrapper{
+    background: url(../../../images/appoinmentBg.png) no-repeat center center;
+    margin-top: 100px;
+    
+}
+.appointment-inner{
+    margin-bottom: -130px;
+    color: white;
+}
+.appointment-inner img{
+    transform: translateY(-130px);
+}
+.text-brand{
+    color: #6ACECE;
+}
+.appointment-inner h1{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.appointment-inner p{
+    margin-bottom: 35px;
+}
+.inner-details{
+    padding-top: 60px;
+}
