@@ -7,7 +7,7 @@ const Home = () => {
         <div className="home-wrapper">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 mx-auto mt-5 pt-5">
+                    <div className="col-md-12">
                         <h1>Hello...!!</h1>
                     </div>
                 </div>
