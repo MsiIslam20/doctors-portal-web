@@ -4,6 +4,7 @@ import Appointment from '../Appoinment/Appoinment';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
 import Services from '../Services/Services';
+import Testimonial from '../Testimonial/Testimonial';
 
 const HeaderMain = () => {
     return (
@@ -13,6 +14,7 @@ const HeaderMain = () => {
             <Services></Services>
             <About></About>
             <Appointment></Appointment>
+            <Testimonial></Testimonial>
         </>
     );
 };
