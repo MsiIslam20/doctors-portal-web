@@ -3,6 +3,12 @@
     background: url(../../../images/conatctBg.png) no-repeat center center;
 
 }
+.contact-form{
+    margin-top: 80px;
+}
 .service-title-white h1{
     color: white !important;
+}
+.contact-form .form-control{
+    padding: 25px 12px;
 }
