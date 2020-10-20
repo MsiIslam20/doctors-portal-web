@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../About/About';
 import Appointment from '../Appoinment/Appoinment';
+import Blog from '../Blog/Blog';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
 import Services from '../Services/Services';
@@ -15,6 +16,7 @@ const HeaderMain = () => {
             <About></About>
             <Appointment></Appointment>
             <Testimonial></Testimonial>
+            <Blog></Blog>
         </>
     );
 };
