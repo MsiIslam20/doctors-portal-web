@@ -3,6 +3,7 @@ import './Blog.css';
 import tes1 from '../../../images/tes1.png';
 import tes2 from '../../../images/tes2.png';
 import tes3 from '../../../images/tes3.png';
+import SingleBlog from './SingleBlog';
 
 const blogData = [
     {
@@ -18,16 +19,16 @@ const blogData = [
         title: 'The tooth cancer is taking a challenge',
         description: 'It is a long established fact that by the readable content of a lot layout. The point ',
         date: '23 April 2019',
-        key: 1,
-        img: tes1
+        key: 2,
+        img: tes2
     },
     {
         name: 'Rashed Kabir',
         title: 'Check at least a doctor in a year for your teeth',
         description: 'It is a long established fact that by the readable content of a lot layout. The point ',
         date: '23 April 2019',
-        key: 1,
-        img: tes1
+        key: 3,
+        img: tes3
     }
 ]
 
@@ -40,6 +41,11 @@ const Blog = () => {
                         <div className="service-title text-center">
                             <h5>OUR BLOG</h5>
                             <h1>From Our Blog News</h1>
+                        </div>
+                        <div className="row">
+                            {
+                                blogData.map((blog) => <SingleBlog blog={blog} key={blog.key}></SingleBlog>)
+                            }
                         </div>
                     </div>
                 </div>
