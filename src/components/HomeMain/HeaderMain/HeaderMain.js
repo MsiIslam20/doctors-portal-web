@@ -4,6 +4,7 @@ import Appointment from '../Appoinment/Appoinment';
 import Blog from '../Blog/Blog';
 import ContactUs from '../ContactUs/ContactUs';
 import Doctors from '../Doctors/Doctors';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
 import Services from '../Services/Services';
@@ -21,6 +22,7 @@ const HeaderMain = () => {
             <Blog></Blog>
             <Doctors></Doctors>
             <ContactUs></ContactUs>
+            <Footer></Footer>
         </>
     );
 };
