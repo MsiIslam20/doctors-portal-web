@@ -6,6 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import HeaderMain from './components/HomeMain/HeaderMain/HeaderMain';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <HeaderMain />
+        </Route>
+        <Route path="*">
+          <NotFound />
         </Route>
       </Switch>
     </Router>
