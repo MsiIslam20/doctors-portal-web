@@ -2,6 +2,7 @@ import React from 'react';
 import About from '../About/About';
 import Appointment from '../Appoinment/Appoinment';
 import Blog from '../Blog/Blog';
+import ContactUs from '../ContactUs/ContactUs';
 import Doctors from '../Doctors/Doctors';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
@@ -19,6 +20,7 @@ const HeaderMain = () => {
             <Testimonial></Testimonial>
             <Blog></Blog>
             <Doctors></Doctors>
+            <ContactUs></ContactUs>
         </>
     );
 };
