@@ -22,13 +22,13 @@ const Header = () => {
                                 <a className="nav-link" href="#0">About</a>
                             </li> 
                             <li className="nav-item">
-                                <a className="nav-link" href="#0">Dental Services</a>
+                                <a className="nav-link" href="#0">Services</a>
                             </li>   
                             <li className="nav-item">
-                                <a className="nav-link" href="#0">Reviews</a>
+                                <a className="nav-link" href="#0">Dashboard</a>
                             </li>      
                             <li className="nav-item">
-                                <a className="nav-link" href="#0">Blog</a>
+                                <a className="nav-link" href="#0">Reviews</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#0">Contact Us</a>

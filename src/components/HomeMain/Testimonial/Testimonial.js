@@ -41,7 +41,7 @@ const Testimonial = () => {
                         </div>
                         <div className="row">
                             {
-                                testimonialData.map(testimonial => <SingleTestimonial testimonial={testimonial}></SingleTestimonial>)
+                                testimonialData.map(testimonial => <SingleTestimonial testimonial={testimonial} key={testimonial.key}></SingleTestimonial>)
                             }
                         </div>
                     </div>

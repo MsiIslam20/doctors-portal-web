@@ -1,3 +1,20 @@
 .testimonial-wrapper{
     padding: 100px 0px;
 }
+.tes-inner{
+    margin-top: 90px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 50px 40px;
+}
+.tes-inner p{
+    margin-bottom: 30px;
+}
+.tes-inner img{
+    width: 60px;
+}
+.tes-inner img{
+    margin-right: 25px;
+}
+.tes-inner h5{
+    color: #5FC7C7;
+}
