@@ -16,15 +16,17 @@ const ContactUs = () => {
                                 <div className="contact-form">
                                 <form>
                                     <div className="form-group">
-                                        <input type="email" className="form-control" name="email" id="validationDefault03" placeholder="Your email address" required />
+                                        <input type="email" className="form-control" name="email" id="validationDefault03" placeholder="Email Address*" required />
                                     </div>
                                     <div className="form-group">
-                                        <input type="text" className="form-control" name="name" id="validationDefault02" placeholder="Your name / company’s name" required />
+                                        <input type="text" className="form-control" name="name" id="validationDefault02" placeholder="Subject*" required />
                                     </div>     
                                     <div className="form-group">
-                                        <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="6" required></textarea>
+                                        <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Your Message*" rows="6" required></textarea>
                                     </div>                           
-                                    <button className="btn mx-auto btn-primary btn-brand mb-5" type="submit">Submit</button>
+                                    <div className="submit">
+                                        <button className="btn mx-auto btn-primary btn-brand mb-5" type="submit">Submit</button>
+                                    </div>
                                 </form>
                                 </div>
                             </div>
