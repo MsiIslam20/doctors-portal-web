@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import HeaderMain from './components/HomeMain/HeaderMain/HeaderMain';
 import NotFound from './components/NotFound/NotFound';
+import AppointmentMain from './components/Appointment/AppointmentMain/AppointmentMain';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <HeaderMain />
+        </Route>
+        <Route path="/appointment">
+          <AppointmentMain />
         </Route>
         <Route path="*">
           <NotFound />
