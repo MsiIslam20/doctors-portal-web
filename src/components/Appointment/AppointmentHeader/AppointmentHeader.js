@@ -15,7 +15,7 @@ const AppointmentHeader = ({handleDateChange}) => {
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="header-inner">
-                                    <h1>Appointments</h1>
+                                    <h1>Appointment</h1>
                                     <Calendar
                                         onChange={handleDateChange}
                                         value={new Date()}
